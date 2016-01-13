@@ -1,10 +1,12 @@
-//---------------------------------------------------------------------------------//
-// CSCI 203 Data Structures: C++, Fall 2015										   //
-// Program FINAL: Bar Stool Loop Problem										   //
-// Author: Joshua Thibado														   //
-// Date Due: Dec. 17, 2015														   //
+/*---------------------------------------------------------------------------------//
+// Program: Pirate Stool Loop Solution											   //
+// Description: This program is a solution to the pirate barstool problem		   //
+// posed by Google																   //
 //																				   //
-//---------------------------------------------------------------------------------//
+// Author: Joshua Thibado														   //
+// Date 1/13/2016																   //
+//																				   //
+//---------------------------------------------------------------------------------*/
 #include <iostream>
 #include <string>
 #include <time.h>
@@ -31,10 +33,11 @@ int numPiratesInLoop = 0;
 int loopStartsAt;
 string pirateList = "(S)";//Stores list of pirates in loop as string
 
-int pirateRandNum;//Rand num for placing in array
-int prevRandNum;//Previous random number to prevent tons of repeats
-				//Not truly random but it is better than 9 12's in
-				//A row :D
+int pirateRandNum;	//Rand num for placing in array
+
+int prevRandNum;	//Previous random number to prevent tons of repeats
+					//Not truly random but it is better than nine 12's
+					//in a row :D
 
 int main()
 {
@@ -87,7 +90,7 @@ void randomArray()
 	{
 		do
 		{
-			pirateRandNum = randomInt(numberOfPirates);//Random number for the pirate = random in
+			pirateRandNum = randomInt(numberOfPirates);//Random number for the pirate = random integer
 			
 		} while (pirateRandNum == j || pirateRandNum == prevRandNum);
 		//If that number is the same as the one before
