@@ -1,11 +1,11 @@
 /*---------------------------------------------------------------------------------//
-// Program: Pirate Stool Loop Solution											   //
-// Description: This program is a solution to the pirate barstool problem		   //
-// posed by Google																   //
-//																				   //
-// Author: Joshua Thibado														   //
-// Date 1/13/2016																   //
-//																				   //
+// Program: Pirate Stool Loop Solution											   
+// Description: This program is a solution to the pirate barstool problem		   
+// posed by Google																   
+//																				   
+// Author: Joshua Thibado														   
+// Date 1/13/2016																   
+//																				   
 //---------------------------------------------------------------------------------*/
 #include <iostream>
 #include <string>
